@@ -1,4 +1,4 @@
-# Inherit common mobile blaze stuff
+# Inherit common mobile Blaze stuff
 $(call inherit-product, vendor/blaze/config/common.mk)
 
 # Themes

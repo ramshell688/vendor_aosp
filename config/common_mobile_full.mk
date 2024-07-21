@@ -1,4 +1,4 @@
-# Inherit common blaze stuff
+# Inherit common Blaze stuff
 $(call inherit-product, vendor/blaze/config/common_mobile.mk)
 
 PRODUCT_SIZE := full
@@ -35,3 +35,7 @@ PRODUCT_PACKAGES += \
     fonts_customization.xml \
     FontLatoOverlay \
     FontRubikOverlay
+
+# Include Blaze LatinIME dictionaries
+PRODUCT_PACKAGE_OVERLAYS += vendor/blaze/overlay/dictionaries
+PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/blaze/overlay/dictionaries
