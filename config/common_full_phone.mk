@@ -1,5 +1,5 @@
-# Inherit full common blaze stuff
-$(call inherit-product, vendor/blaze/config/common_full.mk)
+# Inherit mobile full common Blaze stuff
+$(call inherit-product, vendor/blaze/config/common_mobile_full.mk)
 
 # Required packages
 PRODUCT_PACKAGES += \
