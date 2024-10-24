@@ -1,0 +1,76 @@
+[
+    {
+        "remote":       "ramshell688",
+        "repository":   "ramshell688/device_xiaomi_peridot",
+        "target_path":  "device/xiaomi/peridot",
+        "revision":     "uvite"
+    },
+    {
+        "remote":       "ramshell688",
+        "repository":   "ramshell688/device_xiaomi_peridot-kernel",
+        "target_path":  "device/xiaomi/peridot-kernel",
+        "revision":     "uvite",
+        "clone-depth":  "1"
+    },
+    {
+        "remote":       "xiaomi-peridot",
+        "repository":   "xiaomi-peridot/hardware_qcom_audio-ar",
+        "target_path":  "hardware/qcom-caf/sm8650/audio/primary-hal",
+        "revision":     "lineage-21.0-sm8650"
+    },
+    {
+        "remote":       "xiaomi-peridot",
+        "repository":   "xiaomi-peridot/hardware_qcom_display",
+        "target_path":  "hardware/qcom-caf/sm8650/display",
+        "revision":     "lineage-21.0-sm8650"
+    },
+    {
+        "remote":       "xiaomi-peridot",
+        "repository":   "xiaomi-peridot/vendor_qcom_opensource_data-ipa-cfg-mgr",
+        "target_path":  "hardware/qcom-caf/sm8650/data-ipa-cfg-mgr",
+        "revision":     "lineage-21.0-sm8650"
+    },
+    {
+        "remote":       "xiaomi-peridot",
+        "repository":   "xiaomi-peridot/hardware_qcom_media",
+        "target_path":  "hardware/qcom-caf/sm8650/media",
+        "revision":     "lineage-21.0-sm8650"
+    },
+    {
+        "remote":       "xiaomi-peridot",
+        "repository":   "xiaomi-peridot/hardware_xiaomi",
+        "target_path":  "hardware/xiaomi",
+        "revision":     "udc"
+    },
+    {
+        "remote":       "xiaomi-peridot",
+        "repository":   "xiaomi-peridot/vendor_qcom_opensource_dataipa",
+        "target_path":  "hardware/qcom-caf/sm8650/dataipa",
+        "revision":     "lineage-21.0-sm8650"
+    },
+    {
+        "remote":       "xiaomi-peridot",
+        "repository":   "xiaomi-peridot/device_qcom_sepolicy_vndr",
+        "target_path":  "device/qcom/sepolicy_vndr/sm865",
+        "revision":     "lineage-21.0-sm8650"
+    },
+    {
+        "remote":       "xiaomi-peridot",
+        "repository":   "xiaomi-peridot/vendor_qcom_opensource_arpal-lx",
+        "target_path":  "hardware/qcom-caf/sm8650/audio/pal",
+        "revision":     "lineage-21.0-sm8650"
+    },
+    {
+        "remote":       "xiaomi-peridot",
+        "repository":   "xiaomi-peridot/vendor_qcom_opensource_agm",
+        "target_path":  "hardware/qcom-caf/sm8650/audio/agm",
+        "revision":     "lineage-21.0-sm8650"
+    },
+    {
+        "remote":       "ramshell688",
+        "repository":   "ramshell688/vendor_xiaomi_peridot",
+        "target_path":  "vendor/xiaomi/peridot",
+        "revision":     "uvite",
+        "clone-depth":  "1"
+    }
+]
